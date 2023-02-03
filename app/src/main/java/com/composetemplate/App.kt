@@ -6,7 +6,7 @@ import dagger.hilt.android.HiltAndroidApp
 import timber.log.Timber
 
 @HiltAndroidApp
-class App : Application() {
+class App : Application() { // TODO: This project is used as partially helper code.
 
     @SuppressLint("AppOpenMissing")
     override fun onCreate() {
